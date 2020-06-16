@@ -1,0 +1,102 @@
+
+	.section{
+		text-align:center;
+	}
+
+
+	#section1,
+	#section2,
+	#section3{
+		background-size: cover;
+		background-attachment: fixed;
+    color: white;
+	}
+
+	#section1{
+		background-image: url('imgs/cmp.jpg');
+	}
+
+	#section2{
+		background-image: url('imgs/cmp.jpg');
+	}
+	#section3{
+		background-image: url('imgs/cmp.jpg');
+
+	}
+
+@keyframes lar {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 200px;
+	}
+}
+
+hr {
+	animation: lar 2s;
+	background: white;
+	width: 200px;
+}
+
+.col-md-6 {
+	padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+	width: auto;
+	margin-bottom: 5px;
+}
+
+.fab, .fas, .far {
+	padding: 20px;
+}
+
+.ic:hover {
+	color: lightgray;
+	opacity: 0.5;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.5s;
+	font-size: 250%;
+}
+
+.page_links:hover {
+	color: lightgray;
+	opacity: 0.5;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.5s;
+	font-size: 115%;
+}
+
+
+
+.ic, .page_links{
+	text-decoration: none;
+	color: inherit;
+}
+
+#bl {
+	font-size: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+#bl:after {
+	content: '';
+	width: 20px;
+	height: 2px;
+	background: white;
+	opacity: 0;
+	display: inline-block;
+	animation: blink 1s linear infinite alternate;
+}
+
+@keyframes blink {
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
