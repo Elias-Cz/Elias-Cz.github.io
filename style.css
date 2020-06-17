@@ -105,8 +105,12 @@ hr {
 	#section1,
 	#section2,
 	#section3{
-		background-size: cover;
+		background-size: auto;
 		background-attachment: scroll;
 		color: white;
+	}
+
+	* {
+		padding: 5px;
 	}
 }
