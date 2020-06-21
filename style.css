@@ -13,15 +13,14 @@
 	}
 
 	#section1{
-		background-image: url('imgs/cmp.jpg');
+		background-image: url('imgs/cmp1.jpg');
 	}
 
 	#section2{
-		background-image: url('imgs/cmp.jpg');
+		background-image: url('imgs/cmp1.jpg');
 	}
 	#section3{
-		background-image: url('imgs/cmp.jpg');
-
+		background-image: url('imgs/cmp1.jpg');
 	}
 
 @keyframes lar {
@@ -102,11 +101,24 @@ hr {
 }
 
 @media(max-width:900px) {
-	#section1,
-	#section2,
+	#section1{
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center center;
+		color: white;
+	}
+	#section2{
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center center;
+		color: white;
+	}
+
 	#section3{
 		background-size: cover;
 		background-attachment: scroll;
+		background-position: center center;
 		color: white;
+
 	}
 }
