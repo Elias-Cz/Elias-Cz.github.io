@@ -36,6 +36,7 @@ hr {
 	animation: lar 2s;
 	background: white;
 	width: 200px;
+	margin-right: 80%;
 }
 
 .col-md-6 {
@@ -43,6 +44,20 @@ hr {
   background-color: rgba(0, 0, 0, 0.5);
 	width: auto;
 	margin-bottom: 5px;
+	text-align: left;
+}
+
+.abt {
+	text-align: left;
+}
+
+.tch {
+	text-align: center;
+
+}
+
+.tch hr {
+	margin-right: auto;
 }
 
 .fab, .fas, .far {
@@ -122,4 +137,10 @@ hr {
 		color: white;
 
 	}
+
 }
+
+@media(max-width:574px) {
+	.tch {
+		margin-top: 40px;
+	}
