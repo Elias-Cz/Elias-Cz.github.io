@@ -6,7 +6,7 @@ var myFullpage = new fullpage('#fullpage', {
     //lockanchors: false,
     //anchors: ['section2', 'section3']
     //verticalCentered: false,
-    anchors: ['firstPage', 'secondPage', '3rdPage'],
+    anchors: ['elias', 'projects', 'about'],
     //menu: '#menu',
 
     css3:false,
