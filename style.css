@@ -142,12 +142,18 @@ hr {
 	}
 
 	.under {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
+
+
 
 }
 
 @media(max-width:574px) {
 	.tch {
 		margin-top: 40px;
+	}
+
+	hr {
+		margin-left: auto;
 	}
