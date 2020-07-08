@@ -56,6 +56,8 @@ hr {
 
 }
 
+
+
 .tch hr {
 	margin-right: auto;
 }
@@ -107,6 +109,7 @@ hr {
 	animation: blink 1s linear infinite alternate;
 }
 
+
 @keyframes blink {
 	50% {
 		opacity: 0;
@@ -136,6 +139,10 @@ hr {
 		background-position: center center;
 		color: white;
 
+	}
+
+	.under {
+		margin-bottom: 20px;
 	}
 
 }
