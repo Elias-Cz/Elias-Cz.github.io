@@ -40,11 +40,12 @@ hr {
 }
 
 .col-md-6 {
-	padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-	width: auto;
-	margin-bottom: 5px;
+	border-radius: 20px;
+	background-color: #a9a9a9;
+	color: white;
 	text-align: left;
+	padding: 15px;
+
 }
 
 .abt {
