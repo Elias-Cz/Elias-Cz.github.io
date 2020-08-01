@@ -10,7 +10,7 @@ var myFullpage = new fullpage('#fullpage', {
     //menu: '#menu',
 
     css3:false,
-    responsiveWidth: 900,
+    responsiveWidth: 1280,
     afterResponsive: function(isResponsive){
 
     }
