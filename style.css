@@ -128,7 +128,6 @@ a:hover {
 .cards-anim {
   display: flex;
   margin-left: 25%;
-
 }
 
 .project-card-outer h4 a{
@@ -303,6 +302,10 @@ ul {
    display: none
  }
 
+ .mobile-info {
+   display: none;
+ }
+
 @media only screen and (max-device-width: 1610px) {
 
   #logofirst {
@@ -317,7 +320,7 @@ ul {
 
   .right {
     align-items: baseline;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   #front {
@@ -340,5 +343,29 @@ ul {
   .desktop-nav {
     display: none;
   }
+
+  .map-outer button {
+    display: none;
+  }
+
+  .project-card-outer {
+    height: 400px;
+    width: 500px;
+    margin-left: -2rem;
+  }
+
+  .cards-anim {
+    margin-left: none;
+    align-items: center;
+  }
+
+  .desktop-info {
+    display: none;
+  }
+
+  .mobile-info {
+    display: block;
+  }
+
 
 }

@@ -5,22 +5,31 @@
   <div class="project-card-inner">
 
     <img src="laner.jpg" alt="Laner Electric">
+    <p class="desktop-info">
     Laner Electric is a landing page for a local electrical supply company.
     Mobile-responsive via bootstrap and scss/css media queries.
     Google Maps embeded, and loaded in using AJAX requests.
     Users are able to place an order using the order form,
     and a simple email template with the details is sent
     to the store using formspree.io.
+    </p>
+
+    <p class="mobile-info">
+    A landing page for a local electrical supply company made using Bootstrap,
+    Javascript, HTML and CSS. Dynamic map loading using AJAX requests.
+    </p>
+
   </div>
 </div>
 
 <div class="project-card-outer">
   <h4><a href="https://eliascz.dev/c19tracker/" title="This will take you to a hosted version of this app!">Covid-19 tracker</a><a href="#0" title="This will take you to the github repo for this app!" class="fab fa-github"></a></h4>
   <div class="project-card-inner">
-
+    <p class="">
     <img src="c19.jpg" alt="Coronavirus tracker">
     A simple web app using https://covid19api.com/
     to display data for a specific country.
+    </p>
   </div>
 </div>
 
@@ -29,6 +38,7 @@
   <div class="project-card-inner">
 
     <img src="books.jpg" alt="Book app">
+    <p class="desktop-info">
     A web app made using Python and Flask.
     Users are able to log in, and search for books
      by author, year, isbn, and title. Goodreads api
@@ -36,6 +46,12 @@
       /api followed by isbn returns json object with data for
       the related book. SQL database used to store users,
       hashed passwords and list of books.
+      </p>
+
+      <p class="mobile-info">
+        Web app made using Python, PostgreSQL and Flask. Features account creation and ability
+        to write reviews on search results.
+      </p>
   </div>
 </div>
 
@@ -44,9 +60,15 @@
   <div class="project-card-inner">
 
     <img src="euro.jpg" alt="Euro Mobile">
+    <p class="desktop-info">
     A simple single page app/landing page for a local auto repair and diagnostics
     company made using some Bootstrap elements as well as making use
     of AJAX requests. Contact form powered by formspree.io.
+    </p>
+
+    <p class="mobile-info">
+      Simple SPA/landing page which makes use of AJAX requests. Mobile responsive using some bootstrap elements.
+    </p>
   </div>
 </div>
 
