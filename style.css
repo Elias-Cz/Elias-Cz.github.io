@@ -228,12 +228,13 @@ a:hover {
 .right {
   width: 75%;
   height: 100%;
-  background: url(bg1.jpg) no-repeat right top local;
+  background: url(bg1.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   display: flex;
+  background-position: 50% 50%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -289,47 +290,54 @@ ul {
   padding: 0;
 }
 
+#logosecond {
+  display: none;
+}
+
+
+ .mobile-card {
+   display: none;
+ }
+
+ .mobile-nav {
+   display: none
+ }
+
 @media only screen and (max-device-width: 1610px) {
-  .bg {
+
+  #logofirst {
+    width: 100%;
     height: auto;
-    display: inline-block;
-    width: 100%;
   }
 
-  .column {
-    float: none;
-    width: 100%;
-    background: url(car4.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
-
-  .left {
+  .title1 img {
     width: 100%;
     height: auto;
   }
 
   .right {
+    align-items: baseline;
+  }
+
+  #front {
     display: none;
   }
 
- .custom-nav {
-   margin-bottom: 20px;
- }
+  .desktop-card {
+    display: none;
+  }
 
- #mob {
-   display: inline-block;
-   height: 100px;
- }
+  .mobile-card {
+    display: inline-block;
+  }
 
- #formcar {
-   max-width: 180px
- }
+  .mobile-nav, .mobile-nav a{
+    display: block;
+    color: #08090A;
+  }
 
- .title1 img {
-   display: none;
- }
+  .desktop-nav {
+    display: none;
+  }
 
 }
