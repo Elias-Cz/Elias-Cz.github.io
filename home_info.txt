@@ -1,0 +1,11 @@
+<img src="midlogo.png" alt="EMS LOGO">
+<div class="navigation">
+  <div class="navigation-inner">
+    <a href="#"onclick=loadDoc1()><h4>PROJECTS</h4></a>
+    <span style="color: #F4F7F5;">•</span>
+    <a href=""><h4>RESUME</h4></a>
+    <span style="color: #F4F7F5;">•</span>
+    <a href="https://github.com/Elias-Cz" class="fab fa-github fa-2x bounce" title="Checkout my github here!"></a>
+
+  </div>
+</div>
