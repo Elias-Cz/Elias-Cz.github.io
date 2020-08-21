@@ -350,13 +350,13 @@ ul {
 
   .project-card-outer {
     height: 400px;
-    width: 500px;
-    margin-left: -2rem;
+    width: auto;
+    margin-left: -10rem;
   }
 
   .cards-anim {
     margin-left: none;
-    align-items: center;
+    margin-top: 50%;
   }
 
   .desktop-info {
