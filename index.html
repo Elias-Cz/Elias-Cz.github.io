@@ -1,130 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="fullpage.css">
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elias Cazessus</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"
+       href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/422646b9f5.js" crossorigin="anonymous"></script>
+    <title>Auto Repair</title>
   </head>
   <body>
+    <div class="bg">
 
+            <div class="column left">
 
-
-    <div id="fullpage">
-
-      <div id="section1" class="section">
-        <div id="sectx">
-          <h4>Elias Cazessus</h4>
-          <h5 id='bl'>Front End Web Developer</h5><br>
-          <a class="page_links" href="#projects">Projects</a><br>
-          <a class="page_links"href="#about">About me</a><br>
-
-
-          <a href="https://github.com/Elias-Cz"class="fab fa-github fa-2x ic"></a>
-          <a href="https://www.linkedin.com/in/elias-cazessus-6041a19b/"class="fab fa-linkedin fa-2x ic"></a>
-          <a href="mailto:cazessus.elias@gmail.com"class="fas fa-envelope-square fa-2x ic"></a>
-          <a class="fa fa-download fa-2x ic" aria-hidden="true" href="/dls/Elias C Resume.pdf"></a>
-        </div>
-      </div>
-      <div id="section2" class="section">
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-centered">
-              <h4>Books</h4>
-              <hr>
-              A web app made using Python and Flask. Users are able to log in,
-              and search for books by author, year, isbn, and title. Goodreads api
-              integration for extra details on the book you search for. /api followed
-              by isbn returns json object with data for the related book. SQL database used
-              to store users, hashed passwords and list of books.
+              <div class="custom-nav">
+                <div class="custom-nav-inner">
+                  <img src="logo1.png" alt="E/C">
+                </div>
+              </div>
               <br>
-              <img style="display: inline-block" src="imgs/books.jpg" width="60%">
-              <div style="display: inline-block"class="projectics">
-              <a href="https://github.com/Elias-Cz/books" class="fab fa-github fa-2x ic2"></a>
-              <a href="https://books-books-book.herokuapp.com/"class="fas fa-globe fa-2x ic2"></a>
+
+              <h5>Front-End Web Developer</h5>
+
+              <div class="card-first">
+                I am a front-end web developer based in the San Francisco Bay Area.
+                Currently, I am studying mobile app development using React Native
+                as part of Harvard/edX's CS50 program. My Skills include:
+                HTML5, CSS, Javascript, Python, and two popular frameworks
+                for python, Django and Flask. Other technologies and languages
+                I am familiar with, are: Git, PostgreSQL, Ruby, Sinatra, SASS
+                and design software such as Photoshop and GIMP.
               </div>
+              <div></div>
+
+
+              <div class="map-outer">
+                <button type="button" name="button"><h6>Subscribe!</h6></button>
               </div>
-              <div class="col-md-6 col-centered">
-                <div class="in">
-                  <h4>Laner Electric</h4>
-                  <hr>
-                  Laner Electric is a landing page for a local electrical supply company. Mobile-responsive
-                  via bootstrap and scss/css media queries. Google Maps API implementation using Javascript.
-                  Users are able to place an order using the order form, and a simple email template with the
-                  details is sent to the store using formspree.io.
-                  <br>
-                  <img style="display: inline-block" src="imgs/laner.jpg" width="60%">
-                  <div style="display: inline-block"class="projectics">
-                  <a href="https://github.com/Elias-Cz/Laner" class="fab fa-github fa-2x ic2"></a>
-                  <a href="https://arkattech.github.io/Laner"class="fas fa-globe fa-2x ic2"></a>
+
+            </div>
+            <div class="column right">
+              <div class="car">
+                <div class="title1" id=switch>
+                  <img src="midlogo.png" alt="EMS LOGO">
+                  <div class="navigation">
+                    <div class="navigation-inner">
+                      <a href="#"onclick=loadDoc1()><h4>PROJECTS</h4></a>
+                      <span style="color: #F4F7F5;">•</span>
+                      <a href=""><h4>RESUME</h4></a>
+                      <span style="color: #F4F7F5;">•</span>
+                      <a href="https://github.com/Elias-Cz" class="fab fa-github fa-2x bounce" title="Checkout my github here!"></a>
+
+                    </div>
                   </div>
                 </div>
-
-               </div>
-               <div class="col-md-6 col-centered">
-                   <h4>Coronavirus Tracker</h4>
-                   <hr>
-              A simple web app using https://covid19api.com/ to display data for a
-              specific country.
-             <br>
-             <br>
-             <br>
-             <img style="display: inline-block" src="imgs/c19.jpg" width="60%">
-             <div style="display: inline-block"class="projectics">
-             <a href="https://github.com/Elias-Cz/c19tracker" class="fab fa-github fa-2x ic2"></a>
-             <a href="https://elias-cz.github.io/c19tracker/" class="fas fa-globe fa-2x ic2"></a>
-             </div>
-             </div>
-             <div class="col-md-6 col-centered">
-               <h4>Flack</h4>
-               <hr>
-          Flack is a simple chat app inspired by Discord/Slack. Users can create display names
-          and channels and send and recieve messages live using Socket.io. Written in Javascript + Python using the Flask framework.
-           <br>
-           <img style="display: inline-block" src="imgs/flack.jpg" width="60%">
-           <div style="display: inline-block"class="projectics">
-           <a href="https://github.com/Elias-Cz/project2" class="fab fa-github fa-2x ic2"></a>
-           <a href="https://www.youtube.com/watch?v=w_gc9KL93n8"class="fa fa-video-camera fa-2x ic2" aria-hidden="true"></a>
-           </div>
-           </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div id="section3"  class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-centered abt">
-        <h3>About Me</h3>
-        <hr>
-        My name is Elias Cazessus. I am a front-end web developer based in the San Francisco Bay Area.
-        Currently, I am studying mobile app development using React Native as part of Harvard/edX's CS50 program.
-        My Skills include: HTML5, CSS, Javascript, Python, and two popular frameworks for python, Django and Flask.
-        Other technologies and languages I am familiar with, are: Git, PostgreSQL, Ruby, Sinatra, SASS and design
-        software such as Photoshop and GIMP.
-      </div>
-        <div class="col-sm-6 col-centered tch">
-          <h3>Technologies & Languages</h3>
-          <hr class="tch">
-          <i class="fab fa-js fa-3x"></i>
-          <i class="fab fa-sass fa-3x"></i>
-          <i class="fab fa-css3 fa-3x"></i><br>
-          <i class="fas fa-gem fa-3x"></i>
-          <i class="fab fa-python fa-3x"></i>
-          <i class="fab fa-git fa-3x"></i><br>
-          <i class="fas fa-atom fa-3x"></i>
-          <i class="fas fa-database fa-3x"></i>
-          <i class="fab fa-html5 fa-3x"></i>
-        </div>
-      </div>
-      </div>
-      <a href="#elias"class="page_links under" >To Top</a>
-      <br>
-      </div>
+
+        <script type="text/javascript"src="scripts/main.js"></script>
     </div>
-    <script src="https://kit.fontawesome.com/422646b9f5.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="fullpage.extensions.min.js"></script>
-    <script type="text/javascript" src="spec.js"></script>
   </body>
 </html>
