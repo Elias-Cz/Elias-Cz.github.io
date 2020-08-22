@@ -21,15 +21,13 @@ function loadDoc2() {
   xhttp.send();
 }
 
-
-document.addEventListener('click', event => {
-  const element = event.target;
-  if (element.className === "nav-it") {
-    let list = document.querySelectorAll('.nav-it')
-    list.forEach(item => {
-      item.setAttribute('id', '')
-    })
-    element.setAttribute('id', 'selection')
-    console.log('change')
-  }
-})
+function loadDoc3() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("switch").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "form_info.txt", true);
+  xhttp.send();
+}

@@ -1,0 +1,13 @@
+<div class="contact-form">
+  <form class="form-inner" action="https://formspree.io/xbjzezay" method="post">
+    <h4>Get in Touch</h4>
+    <select class="" name="type" required>
+      <option value="Potential Client"name="Potential Employer"disabled selected>Select</option>
+      <option value="Potential Client"name="Potential Employer">Client</option>
+      <option value="Potential Employer"name="Potential Employer">Employer</option>
+    </select>
+    <input type="email" name="Email"required placeholder="Email Address">
+    <input type="text" name="Name" value=""placeholder="Your Name">
+    <textarea name="Message"placeholder="Your Message"></textarea>
+    <input class="submit"type="submit" name="" value="Send">
+</div>

@@ -181,16 +181,7 @@ a:hover {
   margin-bottom: 5%;
 }
 
-#selection {
-  position: relative;
-  font-weight: bolder;
-  background-color: #D72638;
-  padding: 5px;
-  border-radius: 10px;
-  color: white;
-  animation: grow 1s;
-  animation-iteration-count: 1;
-}
+
 
 #selection:hover {
   background-color: #F25F5C
@@ -222,7 +213,51 @@ a:hover {
 }
 
 
+.contact-form {
+  width: 70%;
+  background-color: #F4F7F5;
+  padding: 20px;
+  border-radius: 10px;
+  color: #08090A;
+  -webkit-box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.77);
+  -moz-box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.77);
+  box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.77);
+  text-align: left;
+  margin: auto;
+}
 
+.form-inner {
+  position: relative;
+}
+
+.form-inner input, .form-inner select, .form-inner textarea {
+  border: none;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 1px solid #08090A;
+  transition: 0.2s;
+  margin: 5px;
+}
+
+.form-inner input:focus, .form-inner select:focus, .form-inner textarea:focus {
+  outline: none;
+  border-bottom: 3px solid #16DB65;
+}
+
+.form-inner .submit {
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  padding: 14px 26px;
+  width: auto;
+  background-color: #08090A;
+  color: #F4F7F5;
+}
+
+
+
+
+/* #16DB65 */
 
 .right {
   width: 75%;
@@ -250,7 +285,8 @@ a:hover {
   -moz-background-size:cover;
   -o-background-size: cover;
   text-align: center;
-
+  overflow-y: scroll;
+  overflow-x :hidden;
 }
 
 .submit-form #btn:hover {
@@ -306,11 +342,40 @@ ul {
    display: none;
  }
 
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @media only screen and (max-device-width: 1610px) {
 
   #logofirst {
     width: 100%;
     height: auto;
+  }
+
+  .form-inner input, .form-inner select, .form-inner textarea {
+    border: none;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 1px solid #08090A;
+    transition: 0.2s;
+    margin: auto;
+  }
+
+  .contact-form {
+    margin-top: 25%;
   }
 
   .title1 img {
@@ -320,7 +385,8 @@ ul {
 
   .right {
     align-items: baseline;
-    overflow-x: scroll;
+    overflow-x: none;
+    overflow-y: scroll;
   }
 
   #front {
@@ -335,9 +401,13 @@ ul {
     display: inline-block;
   }
 
-  .mobile-nav, .mobile-nav a{
+  .mobile-nav, .mobile-nav a {
     display: block;
     color: #08090A;
+  }
+
+  .mobile-nav h4 {
+    font-size: 25px;
   }
 
   .desktop-nav {
@@ -349,14 +419,14 @@ ul {
   }
 
   .project-card-outer {
-    height: 400px;
-    width: auto;
-    margin-left: -10rem;
+    height: 450px;
+    width: 75%;
+    margin-left: 0;
+    margin-bottom: -20rem;
   }
 
   .cards-anim {
-    margin-left: none;
-    margin-top: 50%;
+    display:inline-grid;
   }
 
   .desktop-info {
@@ -367,5 +437,45 @@ ul {
     display: block;
   }
 
+  .project-card-outer:hover ~ .project-card-outer, .project-card-outer:focus-within ~.project-card-outer{
+    transform: translateY(20rem);
+  }
 
+  .project-card-outer:hover, .project-card-outer:focus-within {
+    transform: translateX(-1rem);
+  }
+
+  .project-card-inner img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    align-self: center;
+  }
+
+  a:hover {
+    animation: none;
+  }
+
+
+}
+
+@media only screen and (max-device-width: 400px) {
+
+  .mobile-nav h4 {
+    font-size: 15px;
+  }
+
+  .project-card-inner img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+  }
+
+  .project-card-outer {
+    width: 90%;
+  }
+
+  .cards-anim {
+    margin-left: 10%;
+  }
 }

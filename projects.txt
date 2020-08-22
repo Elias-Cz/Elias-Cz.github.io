@@ -73,7 +73,3 @@
 </div>
 
 </div>
-
-<div class="take">
-<h4><a onclick="loadDoc2()"style="color: #F4F7F5;">Take me back!</a></h4>
-</div>
