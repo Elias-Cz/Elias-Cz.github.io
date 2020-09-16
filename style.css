@@ -418,31 +418,10 @@ ul {
     display: none;
   }
 
+
+
   .project-card-outer {
-    height: 450px;
-    width: 75%;
-    margin-left: 0;
-    margin-bottom: -20rem;
-  }
 
-  .cards-anim {
-    display:inline-grid;
-  }
-
-  .desktop-info {
-    display: none;
-  }
-
-  .mobile-info {
-    display: block;
-  }
-
-  .project-card-outer:hover ~ .project-card-outer, .project-card-outer:focus-within ~.project-card-outer{
-    transform: translateY(20rem);
-  }
-
-  .project-card-outer:hover, .project-card-outer:focus-within {
-    transform: translateX(-1rem);
   }
 
   .project-card-inner img {
@@ -451,6 +430,13 @@ ul {
     margin: 10px 0px;
     align-self: center;
   }
+
+
+
+
+
+
+
 
   a:hover {
     animation: none;
@@ -472,10 +458,25 @@ ul {
   }
 
   .project-card-outer {
-    width: 90%;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: -1rem;
+    transition: 0.2s;
+    flex-shrink: 0;
   }
 
   .cards-anim {
-    margin-left: 10%;
+    margin-left: -20px;
+    display: flex;
+    overflow-x: auto;
+    width: 250px;
+}
+
+  .project-card-outer:hover, .project-card-outer:focus-within {
+    transform: translateY(-1rem);
+  }
+
+  .project-card-outer:hover ~ .project-card-outer, .project-card-outer:focus-within ~.project-card-outer{
+    transform: translateX(10rem);
   }
 }
