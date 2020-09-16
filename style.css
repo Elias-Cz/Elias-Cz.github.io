@@ -460,17 +460,16 @@ ul {
   .project-card-outer {
     width: 100%;
     margin-top: 20%;
-    margin-left: -1rem;
+    margin-left: -5rem;
     transition: 0.2s;
     flex-shrink: 0;
-
   }
 
   .cards-anim {
-    margin-left: -10px;
+    margin-left: -5px;
     display: flex;
     overflow-x: auto;
-    width: 250px;
+    width: 280px;
   }
 
   .project-card-outer:hover, .project-card-outer:focus-within {
@@ -479,5 +478,11 @@ ul {
 
   .project-card-outer:hover ~ .project-card-outer, .project-card-outer:focus-within ~.project-card-outer{
     transform: translateX(10rem);
+  }
+
+  .left {
+
+    overflow-y: hidden;
+    overflow-x :hidden;
   }
 }
